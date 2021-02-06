@@ -16,7 +16,7 @@ minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale: "ko-KR"
-title: "개발일기"
+title: "💻 개발일기"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "은실"
@@ -27,7 +27,7 @@ repository: esesil/esesil.github.io # GitHub username/repo-name e.g. "mmistakes/
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -43,9 +43,6 @@ comments:
   utterances:
     theme: "github-light" # "github-light" (default), "github-dark"
     issue_term: "pathname" # "pathname" (default)
-    repo: "esesil/blog-comments"
-    label: "✨💬✨"
-    crossorigin: "anonymous"
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -88,9 +85,9 @@ social:
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id:
+    tracking_id: "G-Z8VMJ6NT4Q"
     anonymize_ip: # true, false (default)
 
 # Site Author
@@ -238,7 +235,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      show_date: true
       comments: true
       share: false
       related: true

@@ -200,8 +200,8 @@
       margin-left: 0;
     }
   }
-  
-  img{
+
+  img {
     -webkit-transition: none;
     transition: none;
   }
@@ -534,7 +534,8 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: 0.8em;
+    /*font-size: $type-size-7;*/
   }
 
   a {
@@ -568,6 +569,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }

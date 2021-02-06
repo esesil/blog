@@ -11,7 +11,7 @@ classes: wide
 </figure>
 
 안녕하세요.
-좋은 개발자가 되기 위해 노력하는 ES 입니다.
+좋은 개발자가 되기 위해 노력하고 있습니다.
 
 {: .text-justify}
 

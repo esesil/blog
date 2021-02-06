@@ -40,10 +40,13 @@ h1 {
 
 h2 {
   font-size: $h-size-2;
+  /*테마컬러*/
+  color: $primary-color;
 }
 
 h3 {
   font-size: $h-size-3;
+  /*color: #e0a727;*/
 }
 
 h4 {
@@ -126,6 +129,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -168,8 +172,10 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.8em;
-  background: $code-background-color;
+  // background: $code-background-color;
   border-radius: $border-radius;
+  background: #151e7b;
+  color: #fdffe4;
 
   &:before,
   &:after {
