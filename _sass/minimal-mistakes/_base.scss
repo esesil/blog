@@ -46,7 +46,7 @@ h2 {
 
 h3 {
   font-size: $h-size-3;
-  /*color: #e0a727;*/
+  color: #bc98fd;
 }
 
 h4 {
@@ -171,11 +171,18 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: 0.8em;
+  font-size: 0.88em;
   // background: $code-background-color;
   border-radius: $border-radius;
-  background: #151e7b;
-  color: #fdffe4;
+  // 커스텀의 흔적들 ^_ㅠ
+  //background: #151e7b;
+  //color: #fdffe4;
+
+  //background: #fffbfe;
+  //color: #151e7b;
+  //border: 1.2px solid #151e7b;
+  background: #e9e4f0;
+  color: #594970;
 
   &:before,
   &:after {

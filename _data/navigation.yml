@@ -1,15 +1,38 @@
 # main links
 main:
-  - title: "소개"
+  - title: "About"
     url: /about/
   - title: "TIL"
     url: /categories/TIL/
-  - title: "전체 글"
+  - title: "Categories"
     url: /categories/
-  - title: "태그"
+  - title: "Tags"
     url: /tags/
+  - title: "🔍"
+    url: /searchs/
 
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  #sidebar
+sidebar:
+  - title: My
+    children:
+      - title: "Write"
+        url: /categories/write
+      - title: "TIL"
+        url: /categories/TIL
+  - title: Study
+    children:
+      - title: "Java"
+        url: /categories/java
+      - title: "Javascript"
+        url: /categories/javascript
+      - title: "Algorithm"
+        url: /categories/algorithm
+      - title: "Network"
+        url: /categories/network
+      - title: "Etc"
+        url: /categories/etc

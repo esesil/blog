@@ -51,8 +51,8 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: true # true, false (default)
-search_full_content: true # true, false (default)
+search: # true, false (default)
+search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -95,7 +95,7 @@ author:
   name: "은실"
   avatar: "assets/images/profile6.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "좋은 개발자가 되기위한 공간"
-  location: "Seoul"
+  location: "Seoul, South Korea"
   email: "hesies119@gmail.com"
   links:
     - label: "GitHub"
@@ -240,6 +240,9 @@ defaults:
       comments: true
       share: false
       related: true
+      sidebar:
+        title: category
+        nav: "sidebar"
   # _pages
   - scope:
       path: ""
@@ -251,3 +254,6 @@ defaults:
       comments: false
       share: false
       related: false
+      sidebar:
+        title: category
+        nav: "sidebar"
