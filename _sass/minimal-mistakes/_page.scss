@@ -27,7 +27,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .initial-content,
@@ -40,11 +40,23 @@ body {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
+    //가독성위해 추가
+    color: rgb(34, 36, 38);
+    line-height: 1.7;
+    letter-spacing: -0.004em;
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
+    //가독성위해 추가
+    color: rgb(34, 36, 38);
+    line-height: 1.7;
+    letter-spacing: -0.004em;
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
 
   .page__inner-wrap {
@@ -88,22 +100,27 @@ body {
     border-bottom: 1px solid $border-color;
   }
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
-			position: relative;
-			left: 0.5em;
-			opacity: 0;
-			font-size: 0.8em;
-			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-			-moz-transition: opacity 0.2s ease-in-out 0.1s;
-			-o-transition: opacity 0.2s ease-in-out 0.1s;
-			transition: opacity 0.2s ease-in-out 0.1s;
-		}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    .header-link {
+      position: relative;
+      left: 0.5em;
+      opacity: 0;
+      font-size: 0.8em;
+      -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+      -moz-transition: opacity 0.2s ease-in-out 0.1s;
+      -o-transition: opacity 0.2s ease-in-out 0.1s;
+      transition: opacity 0.2s ease-in-out 0.1s;
+    }
 
-		&:hover .header-link {
-			opacity: 1;
-		}
-	}
+    &:hover .header-link {
+      opacity: 1;
+    }
+  }
 
   p,
   li,
@@ -114,6 +131,9 @@ body {
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+    // 가독성 위해 추가
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -540,10 +560,22 @@ body {
   .page {
     @include breakpoint($large) {
       padding-right: 0;
+      //가독성위해 추가
+      color: #494e52;
+      line-height: 1.8;
+      letter-spacing: -0.004em;
+      word-break: keep-all;
+      overflow-wrap: break-word;
     }
 
     @include breakpoint($x-large) {
       padding-right: 0;
+      //가독성위해 추가
+      color: #494e52;
+      line-height: 1.8;
+      letter-spacing: -0.004em;
+      word-break: keep-all;
+      overflow-wrap: break-word;
     }
   }
 

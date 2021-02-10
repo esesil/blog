@@ -13,6 +13,7 @@
   padding-left: 1em;
   padding-right: 1em;
   font-family: $sans-serif;
+  //font-family: "Nanum Gothic Coding";
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
@@ -227,6 +228,8 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
+    //상단 메뉴바 폰트 추가
+    font-family: "Nanum Gothic Coding";
 
     li {
       -webkit-box-flex: 0;

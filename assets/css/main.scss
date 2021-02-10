@@ -6,28 +6,28 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
+//@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
 
 // 폰트 수정
 //$sans-serif: "Noto Sans KR";
 $monospace: "Ubuntu Mono";
 $type-size-4-5: 1.06em !default; // Ubuntu Mono is a bit small
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
 
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
-  font-size: 12px; // change to whatever
+  font-size: 16px; // change to whatever
 
   @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
-  }
-
-  @include breakpoint($large) {
     font-size: 16px; // change to whatever
   }
 
-  @include breakpoint($x-large) {
+  @include breakpoint($large) {
     font-size: 17px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
   }
 }
 

@@ -2,5 +2,6 @@
 title: "Write"
 permalink: /categories/write/
 layout: category
-author_profile: true
+author_profile: false
+taxonomy: Write
 ---
