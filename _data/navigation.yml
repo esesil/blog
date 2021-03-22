@@ -28,6 +28,8 @@ sidebar:
     children:
       - title: "Java"
         url: /categories/java
+      - title: "Spring"
+        url: /categories/spring
       - title: "Javascript"
         url: /categories/javascript
       - title: "Algorithm"
